@@ -1,0 +1,703 @@
+##################################################################################
+##										Transmitter Section I/O's								  ##
+##################################################################################	
+
+
+########################### Clock interface   ###########################                                         
+
+NET "Top_CLK_100Mhz" LOC = AD15;
+NET "Top_CLK_100Mhz" TNM_NET = "Top_CLK_100Mhz";
+TIMESPEC "TS_Top_CLK_100Mhz" = PERIOD "Top_CLK_100Mhz" 10 ns HIGH 50%;
+#OFFSET = IN 10 ns VALID 10 ns BEFORE "Top_CLK_100Mhz";
+							
+###########################  Power supply sequence interface   ###########################   
+                                     
+
+NET "Top_ENABLE1_1" IOSTANDARD = LVCMOS33;
+NET "Top_ENABLE1_1" LOC = AD23;
+
+NET "Top_ENABLE1_2" IOSTANDARD = LVCMOS33;
+NET "Top_ENABLE1_2" LOC = AD25;
+
+NET "Top_ENABLE1_3" IOSTANDARD = LVCMOS33;
+NET "Top_ENABLE1_3" LOC = AD20;
+
+NET "Top_ENABLE1_4" IOSTANDARD = LVCMOS33;
+NET "Top_ENABLE1_4" LOC = AF17;
+
+NET "Top_ENABLE1_5" IOSTANDARD = LVCMOS33;
+NET "Top_ENABLE1_5" LOC = AF15;
+				 
+NET "Top_ENABLE1_6" IOSTANDARD = LVCMOS33;
+NET "Top_ENABLE1_6" LOC = AE15;
+
+NET "Top_SYNC" IOSTANDARD = LVCMOS33;
+NET "Top_SYNC" LOC = F10;
+
+#TP 164
+NET "Top_POWER_OFF_SEQ" IOSTANDARD = LVCMOS33;
+NET "Top_POWER_OFF_SEQ" LOC = D4;
+
+###########################  LM96570 Transmit Beamformer IC Interface  ###########################                              
+									
+NET "Top_Tx_Beam_swr" IOSTANDARD = LVCMOS33;
+NET "Top_Tx_Beam_swr" LOC = B19;
+
+NET "Top_Tx_Beam_sle" IOSTANDARD = LVCMOS33;
+NET "Top_Tx_Beam_sle" LOC = A19;
+
+NET "Top_Tx_Beam_sclk" IOSTANDARD = LVCMOS33;
+NET "Top_Tx_Beam_sclk" LOC = C18;
+
+#NET "Top_Tx_Beam_srd" IOSTANDARD = LVCMOS33;
+#NET "Top_Tx_Beam_srd" LOC = A18;
+
+NET "Top_Tx_Beam_EN" IOSTANDARD = LVCMOS33;
+NET "Top_Tx_Beam_EN" LOC = B17;
+
+########################### Multiplexer IC Interface ###########################
+							
+NET "Top_Mux_clear_all" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_clear_all" LOC = N3;
+
+NET "Top_Mux_clk_5MHZ" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_clk_5MHZ" LOC = P3;
+
+#NET "Top_Mux_Dout_IC_1" IOSTANDARD = LVCMOS33;
+#NET "Top_Mux_Dout_IC_1" LOC =G14;            
+
+#NET "Top_Mux_Dout_IC_2" IOSTANDARD = LVCMOS33;
+#NET "Top_Mux_Dout_IC_2" LOC = L7 ;
+ 
+#NET "Top_Mux_Dout_IC_3" IOSTANDARD = LVCMOS33;
+#NET "Top_Mux_Dout_IC_3" LOC = G15 ;
+
+#NET "Top_Mux_Dout_IC_4" IOSTANDARD = LVCMOS33;
+#NET "Top_Mux_Dout_IC_4" LOC = G16;
+
+NET "Top_Mux_LE_IC_1" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_LE_IC_1" LOC = L5;
+
+NET "Top_Mux_LE_IC_2" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_LE_IC_2" LOC = L4;
+
+NET "Top_Mux_LE_IC_3" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_LE_IC_3" LOC = L3;
+
+NET "Top_Mux_LE_IC_4" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_LE_IC_4" LOC = M5;
+					
+NET "Top_Mux_Din_IC_1" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_Din_IC_1" LOC = K6;
+
+NET "Top_Mux_Din_IC_2" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_Din_IC_2" LOC = K7;
+ 
+NET "Top_Mux_Din_IC_3" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_Din_IC_3" LOC = K5;
+
+NET "Top_Mux_Din_IC_4" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_Din_IC_4" LOC = D6;
+
+##################################################################################
+##									Receiver Section I/O's										  ##
+##################################################################################	
+
+########################### AD9279 IC Programing interface ###########################
+
+NET "Top_ADC_SDIO" IOSTANDARD = LVCMOS33;
+#E16;
+NET "Top_ADC_SDIO" LOC = D15;
+
+NET "Top_ADC_CSB" IOSTANDARD = LVCMOS33;
+#E15;
+NET "Top_ADC_CSB" LOC = F8;
+				 
+
+NET "Top_ADC_CLK_25MHZ" IOSTANDARD = LVCMOS33;
+# E17;
+NET "Top_ADC_CLK_25MHZ" LOC = F19;
+
+########################### LVDS interface from IC AD9279 ###########################
+	
+#A9;
+NET "Top_ADC_FCO_P" IOSTANDARD = LVDS_25;
+#E2;
+NET "Top_ADC_FCO_P" LOC = T2;
+
+#B9;
+NET "Top_ADC_FCO_N" IOSTANDARD = LVDS_25;
+#E1;
+NET "Top_ADC_FCO_N" LOC = R2;
+					
+#A10;
+NET "Top_ADC_DCO_P" IOSTANDARD = LVDS_25;
+#F3;
+NET "Top_ADC_DCO_P" LOC = P1;
+
+#B10;
+NET "Top_ADC_DCO_N" IOSTANDARD = LVDS_25;
+# E3;
+NET "Top_ADC_DCO_N" LOC = R1;
+												
+#A1;
+NET "Top_ADC_CH1_P" IOSTANDARD = LVDS_25;
+#M1;
+NET "Top_ADC_CH1_P" LOC = AE1;
+
+#B1;
+NET "Top_ADC_CH1_N" IOSTANDARD = LVDS_25;
+# N1;
+NET "Top_ADC_CH1_N" LOC = AD1;
+
+#A2;
+NET "Top_ADC_CH2_P" IOSTANDARD = LVDS_25;
+#M2;
+NET "Top_ADC_CH2_P" LOC = AF2;
+
+#B2;
+NET "Top_ADC_CH2_N" IOSTANDARD = LVDS_25;
+#N2;
+NET "Top_ADC_CH2_N" LOC = AE2;
+
+#A3;
+NET "Top_ADC_CH3_P" IOSTANDARD = LVDS_25;
+#L2;
+NET "Top_ADC_CH3_P" LOC = AC2;
+
+#B3;
+NET "Top_ADC_CH3_N" IOSTANDARD = LVDS_25;
+#K1;
+NET "Top_ADC_CH3_N" LOC = AC1;
+
+#A4;
+NET "Top_ADC_CH4_P" IOSTANDARD = LVDS_25;
+#K3;
+NET "Top_ADC_CH4_P" LOC = AB2;
+
+#B4;
+NET "Top_ADC_CH4_N" IOSTANDARD = LVDS_25;
+#K2;
+NET "Top_ADC_CH4_N" LOC = AB1;
+
+#A5;
+NET "Top_ADC_CH5_P" IOSTANDARD = LVDS_25;
+#H3;
+NET "Top_ADC_CH5_P" LOC = AA2;
+
+#B5;
+NET "Top_ADC_CH5_N" IOSTANDARD = LVDS_25;
+#J3;
+NET "Top_ADC_CH5_N" LOC = Y2;
+
+#A6;
+NET "Top_ADC_CH6_P" IOSTANDARD = LVDS_25;
+#J1;
+NET "Top_ADC_CH6_P" LOC = Y1;
+
+#B6;
+NET "Top_ADC_CH6_N" IOSTANDARD = LVDS_25;
+#H2;
+NET "Top_ADC_CH6_N" LOC = W1;
+
+#A7;
+NET "Top_ADC_CH7_P" IOSTANDARD = LVDS_25;
+#G1;
+NET "Top_ADC_CH7_P" LOC = V2;
+
+#B7;
+NET "Top_ADC_CH7_N" IOSTANDARD = LVDS_25;
+#H1;
+NET "Top_ADC_CH7_N" LOC = V1;
+
+#A8;
+NET "Top_ADC_CH8_P" IOSTANDARD = LVDS_25;
+#F2;
+NET "Top_ADC_CH8_P" LOC = U2;
+
+#B8;
+NET "Top_ADC_CH8_N" IOSTANDARD = LVDS_25;
+#G2;
+NET "Top_ADC_CH8_N" LOC = U1;
+
+							
+########################### DAC Interface Module ###########################
+
+#C1 of other connecter
+NET "Top_DAC_CLOCK_122_88" LOC = E17; #C1;
+NET "Top_DAC_CLOCK_122_88" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_CLOCK_122_88" SLEW = FAST;
+
+NET "Top_DAC_out_data[0]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[0]" LOC = AF14;
+NET "Top_DAC_out_data[0]" SLEW = FAST;
+				 
+NET "Top_DAC_out_data[1]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[1]" LOC = AF13;
+NET "Top_DAC_out_data[1]" SLEW = FAST;
+
+NET "Top_DAC_out_data[2]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[2]" LOC = AF12;
+NET "Top_DAC_out_data[2]" SLEW = FAST;
+				 
+NET "Top_DAC_out_data[3]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[3]" LOC = AE13;
+NET "Top_DAC_out_data[3]" SLEW = FAST;
+				 
+NET "Top_DAC_out_data[4]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[4]" LOC = AE12;
+NET "Top_DAC_out_data[4]" SLEW = FAST;
+
+NET "Top_DAC_out_data[5]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[5]" LOC = AE11;
+NET "Top_DAC_out_data[5]" SLEW = FAST;
+
+NET "Top_DAC_out_data[6]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[6]" LOC = AF10;
+NET "Top_DAC_out_data[6]" SLEW = FAST;
+
+NET "Top_DAC_out_data[7]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[7]" LOC = AE10;
+NET "Top_DAC_out_data[7]" SLEW = FAST;
+					
+NET "Top_DAC_out_data[8]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[8]" LOC = AF9;
+NET "Top_DAC_out_data[8]" SLEW = FAST;
+					
+NET "Top_DAC_out_data[9]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[9]" LOC = AF8;
+NET "Top_DAC_out_data[9]" SLEW = FAST;
+					
+NET "Top_DAC_out_data[10]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[10]" LOC = AF7;
+NET "Top_DAC_out_data[10]" SLEW = FAST;
+					
+NET "Top_DAC_out_data[11]" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_out_data[11]" LOC = AE7;
+NET "Top_DAC_out_data[11]" SLEW = FAST;
+				
+NET "Top_DAC_WRT_A" LOC = AE8;
+NET "Top_DAC_WRT_A" IOSTANDARD = LVCMOS33;
+NET "Top_DAC_WRT_A" SLEW = FAST;
+
+
+########################### SRAM interface Module  ###########################
+
+NET "Top_SRAM_clk_out" LOC = N23;
+NET "Top_SRAM_clk_out" SLEW = FAST;
+NET "Top_SRAM_clk_out" IOSTANDARD = LVCMOS33;
+
+#NET "Top_SRAM_mode" LOC = N4;
+#NET "Top_SRAM_mode" SLEW = FAST;
+#NET "Top_SRAM_mode" IOSTANDARD = LVCMOS33;   
+				
+NET "Top_SRAM_addr[0]" LOC = T3;
+NET "Top_SRAM_addr[0]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[0]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[1]" LOC = R3;
+NET "Top_SRAM_addr[1]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[1]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[2]" LOC = P5;
+NET "Top_SRAM_addr[2]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[2]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[3]" LOC = P4;
+NET "Top_SRAM_addr[3]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[3]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[4]" LOC = R5;
+NET "Top_SRAM_addr[4]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[4]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[5]" LOC = P6;
+NET "Top_SRAM_addr[5]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[5]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[6]" LOC = R6;
+NET "Top_SRAM_addr[6]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[6]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[7]" LOC = R7;
+NET "Top_SRAM_addr[7]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[7]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[8]" LOC = E6;
+NET "Top_SRAM_addr[8]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[8]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[9]" LOC = G6;
+NET "Top_SRAM_addr[9]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[9]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[10]" LOC = G7;
+NET "Top_SRAM_addr[10]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[10]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[11]" LOC = J6;
+NET "Top_SRAM_addr[11]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[11]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[12]" LOC = H6;
+NET "Top_SRAM_addr[12]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[12]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[13]" LOC = N7;
+NET "Top_SRAM_addr[13]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[13]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[14]" LOC = N6;
+NET "Top_SRAM_addr[14]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[14]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[15]" LOC = P19;
+NET "Top_SRAM_addr[15]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[15]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[16]" LOC = L23;
+NET "Top_SRAM_addr[16]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[16]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[17]" LOC = L22;
+NET "Top_SRAM_addr[17]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[17]" SLEW = FAST;
+				
+NET "Top_SRAM_addr[18]" LOC = L20;
+NET "Top_SRAM_addr[18]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_addr[18]" SLEW = FAST;
+				
+NET "Top_SRAM_adv_n" LOC = F22;
+NET "Top_SRAM_adv_n" IOSTANDARD = LVCMOS33;
+				
+NET "Top_SRAM_adsp_n" LOC = F23;
+NET "Top_SRAM_adsp_n" IOSTANDARD = LVCMOS33;
+				
+NET "Top_SRAM_adsc_n" LOC = H23;
+NET "Top_SRAM_adsc_n" IOSTANDARD = LVCMOS33;
+												
+NET "Top_SRAM_ce_n" LOC = N22;
+NET "Top_SRAM_ce_n" IOSTANDARD = LVCMOS33;
+												
+NET "Top_SRAM_ce2" LOC = K23;
+NET "Top_SRAM_ce2" IOSTANDARD = LVCMOS33;
+												
+NET "Top_SRAM_ce2_n" LOC = K22;
+NET "Top_SRAM_ce2_n" IOSTANDARD = LVCMOS33;
+												
+NET "Top_SRAM_bwa_n" LOC = R22;
+NET "Top_SRAM_bwa_n" IOSTANDARD = LVCMOS33;
+		
+NET "Top_SRAM_bwb_n" LOC = R23;
+NET "Top_SRAM_bwb_n" IOSTANDARD = LVCMOS33;
+												
+NET "Top_SRAM_bwc_n" LOC = H7;
+NET "Top_SRAM_bwc_n" IOSTANDARD = LVCMOS33;
+					
+NET "Top_SRAM_bwd_n" LOC = J21;
+NET "Top_SRAM_bwd_n" IOSTANDARD = LVCMOS33;
+											 
+NET "Top_SRAM_oe_n" LOC = J23;
+NET "Top_SRAM_oe_n" IOSTANDARD = LVCMOS33;
+												
+NET "Top_SRAM_global_wr_n" LOC = P23;
+NET "Top_SRAM_global_wr_n" IOSTANDARD = LVCMOS33;
+											 
+NET "Top_SRAM_bwe_n" LOC = M22;
+NET "Top_SRAM_bwe_n" IOSTANDARD = LVCMOS33;
+				
+NET "Top_SRAM_zz" LOC = G21;
+NET "Top_SRAM_zz" IOSTANDARD = LVCMOS33;
+				
+NET "Top_SRAM_DQ[0]" LOC = M21;
+NET "Top_SRAM_DQ[0]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[0]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[1]" LOC = E5;
+NET "Top_SRAM_DQ[1]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[1]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[2]" LOC = F5;
+NET "Top_SRAM_DQ[2]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[2]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[3]" LOC = F4;
+NET "Top_SRAM_DQ[3]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[3]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[4]" LOC = G5;
+NET "Top_SRAM_DQ[4]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[4]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[5]" LOC = H4;
+NET "Top_SRAM_DQ[5]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[5]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[6]" LOC = G4;
+NET "Top_SRAM_DQ[6]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[6]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[7]" LOC = J5;
+NET "Top_SRAM_DQ[7]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[7]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[8]" LOC = J4;
+NET "Top_SRAM_DQ[8]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[8]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[9]" LOC = M4;
+NET "Top_SRAM_DQ[9]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[9]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[10]" LOC = G20;
+NET "Top_SRAM_DQ[10]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[10]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[11]" LOC = F20;
+NET "Top_SRAM_DQ[11]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[11]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[12]" LOC = E21;
+NET "Top_SRAM_DQ[12]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[12]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[13]" LOC = E20;
+NET "Top_SRAM_DQ[13]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[13]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[14]" LOC = H21;
+NET "Top_SRAM_DQ[14]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[14]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[15]" LOC = H22;
+NET "Top_SRAM_DQ[15]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[15]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[16]" LOC = J19;
+NET "Top_SRAM_DQ[16]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[16]" SLEW = FAST;
+				
+NET "Top_SRAM_DQ[17]" LOC = H19;
+NET "Top_SRAM_DQ[17]" IOSTANDARD = LVCMOS33;
+NET "Top_SRAM_DQ[17]" SLEW = FAST;
+
+
+########################### USB interface Module ###########################
+
+NET "Top_USB_CLKIN_48_MHZ" LOC = B25;
+NET "Top_USB_CLKIN_48_MHZ" IOSTANDARD = LVCMOS33;
+NET "Top_USB_CLKIN_48_MHZ" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "Top_USB_sloe_n" LOC = AB25;
+NET "Top_USB_sloe_n" IOSTANDARD = LVCMOS33;
+
+NET "Top_USB_slrd_n" LOC = A22;
+NET "Top_USB_slrd_n" IOSTANDARD = LVCMOS33;
+
+NET "Top_USB_flagb" LOC = Y25;
+NET "Top_USB_flagb" IOSTANDARD = LVCMOS33;
+
+NET "Top_USB_flagc" LOC = Y26;
+NET "Top_USB_flagc" IOSTANDARD = LVCMOS33;
+
+NET "Top_USB_start" LOC = AE23;
+NET "Top_USB_start" IOSTANDARD = LVCMOS33;
+			
+NET "Top_USB_fddr_n[1]" LOC = AA25;
+NET "Top_USB_fddr_n[1]" IOSTANDARD = LVCMOS33;
+
+#NET "Top_USB_fddr_n[0]" LOC = Hardware lines connected ;
+#NET "Top_USB_fddr_n[0]" IOSTANDARD = LVCMOS33;
+
+NET "Top_USB_slwr_n" LOC = A23;
+NET "Top_USB_slwr_n" IOSTANDARD = LVCMOS33;
+							
+NET "Top_USB_usb_data_out[0]" LOC = A10;
+NET "Top_USB_usb_data_out[0]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[1]" LOC = A9;
+NET "Top_USB_usb_data_out[1]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[2]" LOC = A8;
+NET "Top_USB_usb_data_out[2]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[3]" LOC = B7;
+NET "Top_USB_usb_data_out[3]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[4]" LOC = A7;
+NET "Top_USB_usb_data_out[4]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[5]" LOC = A4;
+NET "Top_USB_usb_data_out[5]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[6]" LOC = A5;
+NET "Top_USB_usb_data_out[6]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[7]" LOC = B5;
+NET "Top_USB_usb_data_out[7]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[8]" LOC = AD26;
+NET "Top_USB_usb_data_out[8]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[9]" LOC = AE26;
+NET "Top_USB_usb_data_out[9]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[10]" LOC = AF24;
+NET "Top_USB_usb_data_out[10]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[11]" LOC = AF25;
+NET "Top_USB_usb_data_out[11]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[12]" LOC = AF18;
+NET "Top_USB_usb_data_out[12]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[13]" LOC = AE18;
+NET "Top_USB_usb_data_out[13]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[14]" LOC = AF19;
+NET "Top_USB_usb_data_out[14]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_usb_data_out[15]" LOC = AF20;
+NET "Top_USB_usb_data_out[15]" IOSTANDARD = LVCMOS33;
+
+########################### RCI interface Module Operated in Asynchronous Mode  ###########################
+
+
+NET "Top_USB_RCI_addr[0]" LOC = U24;
+NET "Top_USB_RCI_addr[0]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_addr[1]" LOC = U25;
+NET "Top_USB_RCI_addr[1]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_addr[2]" LOC = W25;
+NET "Top_USB_RCI_addr[2]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_addr[3]" LOC = W26;
+NET "Top_USB_RCI_addr[3]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_addr[4]" LOC = AE20;
+NET "Top_USB_RCI_addr[4]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_addr[5]" LOC = AE21;
+NET "Top_USB_RCI_addr[5]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_addr[6]" LOC = AF22;
+NET "Top_USB_RCI_addr[6]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_addr[7]" LOC = AE22;
+NET "Top_USB_RCI_addr[7]" IOSTANDARD = LVCMOS33;
+			
+			
+NET "Top_USB_RCI_data[0]" LOC = D3;
+NET "Top_USB_RCI_data[0]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_data[1]" LOC = B6;
+NET "Top_USB_RCI_data[1]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_data[2]" LOC = A2;
+NET "Top_USB_RCI_data[2]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_data[3]" LOC = A3;
+NET "Top_USB_RCI_data[3]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_data[4]" LOC = B1;
+NET "Top_USB_RCI_data[4]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_data[5]" LOC = B2;
+NET "Top_USB_RCI_data[5]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_data[6]" LOC = C6;
+NET "Top_USB_RCI_data[6]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_data[7]" LOC = C7;
+NET "Top_USB_RCI_data[7]" IOSTANDARD = LVCMOS33;
+				
+NET "Top_USB_RCI_csb_n" LOC = B11;
+NET "Top_USB_RCI_csb_n" IOSTANDARD = LVCMOS33;
+NET "Top_USB_RCI_csb_n" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "Top_USB_RCI_Wr_n" LOC = B10;
+NET "Top_USB_RCI_Wr_n" IOSTANDARD = LVCMOS33;
+			
+NET "Top_USB_RCI_Rd_n" LOC = B9;
+NET "Top_USB_RCI_Rd_n" IOSTANDARD = LVCMOS33;
+	
+NET "Top_USB_RCI_oe_n" LOC = C14;
+NET "Top_USB_RCI_oe_n" IOSTANDARD = LVCMOS33;
+
+
+##################################################################################
+##										Testing I/O's												  ##
+##################################################################################	
+
+
+########################### OTHERS testpoints ###########################
+
+NET "Top_tp" LOC = R26;
+NET "Top_tp" IOSTANDARD = LVCMOS33;
+
+
+# PlanAhead Generated IO constraints 
+
+NET "Top_USB_fddr_n[1]" SLEW = FAST;
+NET "Top_USB_fddr_n[0]" SLEW = FAST;
+NET "Top_USB_fddr_n[0]" IOSTANDARD = LVCMOS33;
+NET "Top_USB_usb_data_out[14]" IOSTANDARD = LVCMOS33;
+NET "Top_USB_usb_data_out[4]" IOSTANDARD = LVCMOS33;
+NET "Top_USB_RCI_data[7]" SLEW = FAST;
+NET "Top_USB_RCI_data[6]" SLEW = FAST;
+NET "Top_USB_RCI_data[5]" SLEW = FAST;
+NET "Top_USB_RCI_data[4]" SLEW = FAST;
+NET "Top_USB_RCI_data[3]" SLEW = FAST;
+NET "Top_USB_RCI_data[2]" SLEW = FAST;
+NET "Top_USB_RCI_data[1]" SLEW = FAST;
+NET "Top_USB_RCI_data[0]" SLEW = FAST;
+NET "Top_USB_usb_data_out[15]" SLEW = FAST;
+NET "Top_USB_usb_data_out[14]" SLEW = FAST;
+NET "Top_USB_usb_data_out[13]" SLEW = FAST;
+NET "Top_USB_usb_data_out[12]" SLEW = FAST;
+NET "Top_USB_usb_data_out[11]" SLEW = FAST;
+NET "Top_USB_usb_data_out[10]" SLEW = FAST;
+NET "Top_USB_usb_data_out[9]" SLEW = FAST;
+NET "Top_USB_usb_data_out[8]" SLEW = FAST;
+NET "Top_USB_usb_data_out[7]" SLEW = FAST;
+NET "Top_USB_usb_data_out[6]" SLEW = FAST;
+NET "Top_USB_usb_data_out[5]" SLEW = FAST;
+NET "Top_USB_usb_data_out[4]" SLEW = FAST;
+NET "Top_USB_usb_data_out[3]" SLEW = FAST;
+NET "Top_USB_usb_data_out[2]" SLEW = FAST;
+NET "Top_USB_usb_data_out[1]" SLEW = FAST;
+NET "Top_USB_usb_data_out[0]" SLEW = FAST;
+NET "Top_CLK_100Mhz" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_Dout_IC_1" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_Dout_IC_2" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_Dout_IC_3" IOSTANDARD = LVCMOS33;
+NET "Top_Mux_Dout_IC_4" IOSTANDARD = LVCMOS33;
+NET "Top_Tx_Beam_srd" IOSTANDARD = LVCMOS33;
+NET "Top_ADC_CLK_25MHZ" SLEW = FAST;
+NET "Top_ADC_CSB" SLEW = FAST;
+NET "Top_ADC_SDIO" SLEW = FAST;
+#
+#NET Top_Module_Receiver/LVDS_in_buff_ch1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc<*> TIG;
+#NET Top_Module_Receiver/LVDS_in_buff_ch1/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc<*> TIG;
+#
+#NET Top_Module_Receiver/LVDS_in_buff_ch2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc<*> TIG;
+#NET Top_Module_Receiver/LVDS_in_buff_ch2/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc<*> TIG;
+#
+#NET Top_Module_Receiver/LVDS_in_buff_ch3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc<*> TIG;
+#NET Top_Module_Receiver/LVDS_in_buff_ch3/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc<*> TIG;
+#
+#NET Top_Module_Receiver/LVDS_in_buff_ch4/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc<*> TIG;
+#NET Top_Module_Receiver/LVDS_in_buff_ch4/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc<*> TIG;
+#
+#NET Top_Module_Receiver/LVDS_in_buff_ch5/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc<*> TIG;
+#NET Top_Module_Receiver/LVDS_in_buff_ch5/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc<*> TIG;
+#
+#NET Top_Module_Receiver/LVDS_in_buff_ch6/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc<*> TIG;
+#NET Top_Module_Receiver/LVDS_in_buff_ch6/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc<*> TIG;
+#
+#NET Top_Module_Receiver/LVDS_in_buff_ch7/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc<*> TIG;
+#NET Top_Module_Receiver/LVDS_in_buff_ch7/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc<*> TIG;
+#
+#NET Top_Module_Receiver/LVDS_in_buff_ch8/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc<*> TIG;
+#NET Top_Module_Receiver/LVDS_in_buff_ch8/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc<*> TIG;

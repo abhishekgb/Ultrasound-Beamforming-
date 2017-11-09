@@ -1,0 +1,14 @@
+run
+-top example_logicanalyser1
+-ifn example_logicanalyser1.prj
+-ofmt NGC
+-ofn example_logicanalyser1.ngc
+-p xc5vlx50-ff676-1
+-ifmt mixed
+-opt_mode Speed
+-opt_level 2
+-read_cores YES
+-bufg 0
+-iobuf YES
+#-iob auto
+ 

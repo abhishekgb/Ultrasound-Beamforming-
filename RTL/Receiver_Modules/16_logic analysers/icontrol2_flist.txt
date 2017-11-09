@@ -1,0 +1,17 @@
+# Output products list for <icontrol2>
+_xmsgs\pn_parser.xmsgs
+icontrol2.asy
+icontrol2.constraints\icontrol2.ucf
+icontrol2.constraints\icontrol2.xdc
+icontrol2.gise
+icontrol2.ngc
+icontrol2.sym
+icontrol2.ucf
+icontrol2.vhd
+icontrol2.vho
+icontrol2.xco
+icontrol2.xdc
+icontrol2.xise
+icontrol2_flist.txt
+icontrol2_readme.txt
+icontrol2_xmdf.tcl

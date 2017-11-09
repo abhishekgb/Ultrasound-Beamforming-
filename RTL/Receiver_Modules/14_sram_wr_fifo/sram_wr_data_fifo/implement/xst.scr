@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent sram_wr_data_fifo_exdes 
+-p xc5vlx50-ff676-1
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn sram_wr_data_fifo_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

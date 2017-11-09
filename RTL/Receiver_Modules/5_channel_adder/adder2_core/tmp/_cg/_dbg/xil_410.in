@@ -1,0 +1,61 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily virtex5
+SET_PREFERENCE device xc5vlx50
+SET_PREFERENCE speedgrade -1
+SET_PREFERENCE package ff676
+SET_PREFERENCE verilogsim false
+SET_PREFERENCE vhdlsim true
+SET_PREFERENCE simulationfiles Behavioral
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory C:/Users/20040926/Desktop/050214/28_4_14/RTL/Receiver_Modules/5_channel_adder/adder2_core/
+SET_PREFERENCE workingdirectory C:/Users/20040926/Desktop/050214/28_4_14/RTL/Receiver_Modules/5_channel_adder/adder2_core/tmp/
+SET_PREFERENCE subworkingdirectory C:/Users/20040926/Desktop/050214/28_4_14/RTL/Receiver_Modules/5_channel_adder/adder2_core/tmp/_cg/
+SET_PREFERENCE transientdirectory C:/Users/20040926/Desktop/050214/28_4_14/RTL/Receiver_Modules/5_channel_adder/adder2_core/tmp/_cg/_dbg/
+SET_PREFERENCE designentry VHDL
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_PARAMETER Component_Name adder2_core
+SET_PARAMETER Implementation Fabric
+SET_PARAMETER A_Type Signed
+SET_PARAMETER B_Type Signed
+SET_PARAMETER A_Width 33
+SET_PARAMETER B_Width 33
+SET_PARAMETER Add_Mode Add
+SET_PARAMETER Out_Width 34
+SET_PARAMETER Latency_Configuration Manual
+SET_PARAMETER Latency 1
+SET_PARAMETER B_Constant false
+SET_PARAMETER B_Value 000000000000000000000000000000000
+SET_PARAMETER CE true
+SET_PARAMETER C_In true
+SET_PARAMETER C_Out false
+SET_PARAMETER Borrow_Sense Active_Low
+SET_PARAMETER SCLR true
+SET_PARAMETER SSET false
+SET_PARAMETER SINIT false
+SET_PARAMETER SINIT_Value 0
+SET_PARAMETER Bypass false
+SET_PARAMETER Bypass_Sense Active_High
+SET_PARAMETER Sync_Ctrl_Priority Reset_Overrides_Set
+SET_PARAMETER Sync_CE_Priority Sync_Overrides_CE
+SET_PARAMETER Bypass_CE_Priority CE_Overrides_Bypass
+SET_PARAMETER AINIT_Value 0
+SET_CORE_NAME Adder Subtracter
+SET_CORE_VERSION 11.0
+SET_CORE_VLNV xilinx.com:ip:c_addsub:11.0
+SET_CORE_CLASS com.xilinx.ip.c_addsub_v11_0.c_addsub_v11_0
+SET_CORE_PATH C:/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/c_addsub_v11_0
+SET_CORE_GUIPATH C:/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/c_addsub_v11_0/gui/c_addsub_v11_0.tcl
+SET_CORE_DATASHEET C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\c_addsub_v11_0\doc\ds214_addsub.pdf
+ADD_CORE_DOCUMENT <C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\c_addsub_v11_0\doc\c_addsub_v11_0_readme.txt><c_addsub_v11_0_readme.txt>
+ADD_CORE_DOCUMENT <C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\c_addsub_v11_0\doc\c_addsub_v11_0_vinfo.html><c_addsub_v11_0_vinfo.html>
+ADD_CORE_DOCUMENT <C:\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\c_addsub_v11_0\doc\ds214_addsub.pdf><ds214_addsub.pdf>

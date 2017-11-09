@@ -1,0 +1,15 @@
+# Output products list for <adder2_core>
+_xmsgs\pn_parser.xmsgs
+adder2_core.asy
+adder2_core.gise
+adder2_core.ngc
+adder2_core.sym
+adder2_core.vhd
+adder2_core.vho
+adder2_core.xco
+adder2_core.xise
+adder2_core\doc\c_addsub_v11_0_readme.txt
+adder2_core\doc\c_addsub_v11_0_vinfo.html
+adder2_core\doc\ds214_addsub.pdf
+adder2_core_flist.txt
+adder2_core_xmdf.tcl

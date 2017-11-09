@@ -1,0 +1,29 @@
+SET_PARAMETER b_width 33
+SET_PARAMETER a_width 33
+SET_PARAMETER ce true
+SET_PARAMETER bypass_ce_priority CE_Overrides_Bypass
+SET_PARAMETER c_out false
+SET_PARAMETER ainit_value 0
+SET_PARAMETER b_constant false
+SET_PARAMETER bypass false
+SET_PARAMETER a_type Signed
+SET_PARAMETER component_name adder2_core
+SET_PARAMETER borrow_sense Active_Low
+SET_PARAMETER sset false
+SET_PARAMETER implementation Fabric
+SET_PARAMETER latency 1
+SET_PARAMETER b_value 000000000000000000000000000000000
+SET_PARAMETER add_mode Add
+SET_PARAMETER b_type Signed
+SET_PARAMETER sclr true
+SET_PARAMETER c_in true
+SET_PARAMETER bypass_sense Active_High
+SET_PARAMETER sinit_value 0
+SET_PARAMETER sync_ctrl_priority Reset_Overrides_Set
+SET_PARAMETER latency_configuration Manual
+SET_PARAMETER sync_ce_priority Sync_Overrides_CE
+SET_PARAMETER sinit false
+SET_PARAMETER out_width 34
+SET_ERROR_CODE 2
+SET_ERROR_MSG  CANCEL: Customization cancelled.
+SET_ERROR_TEXT Finished initializing IP model.	

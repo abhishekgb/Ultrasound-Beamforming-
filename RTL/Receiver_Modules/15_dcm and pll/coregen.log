@@ -1,0 +1,6 @@
+WARNING:coreutil:928 - Unable to find 'xilinx.com:ip:d2p_v13_1:1.0' within
+   repository.
+ERROR:sim:879 - Part 'xc7vx330t-3ffg1157' is not valid for component
+   'xilinx.com:ip:d2p:13.1'.
+ERROR:sim:621 - Unable to create project from file 'E:/project files/working
+   codes/full Rx part_ubf/rx_side_3_10_13/RTL/15_dcm and pll/freq_mul.xaw'.

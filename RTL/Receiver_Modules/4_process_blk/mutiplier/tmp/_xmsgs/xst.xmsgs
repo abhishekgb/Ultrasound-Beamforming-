@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">621</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">622</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">629</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">643</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">650</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">660</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">669</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">691</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">698</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="795" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./xbip_utils_v2_0/bip_utils_pkg_v2_0.vhd</arg>&quot; line <arg fmt="%d" index="2">1848</arg>: Size of operands are different : result is &lt;false&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="795" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./xbip_utils_v2_0/bip_utils_pkg_v2_0.vhd</arg>&quot; line <arg fmt="%d" index="2">1848</arg>: Size of operands are different : result is &lt;false&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/multiplier_block.vhd</arg>&quot; line <arg fmt="%d" index="2">110</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">ce</arg>&apos; of component &apos;<arg fmt="%s" index="4">mult_gen_v11_2</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/multiplier_block.vhd</arg>&quot; line <arg fmt="%d" index="2">110</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">sclr</arg>&apos; of component &apos;<arg fmt="%s" index="4">mult_gen_v11_2</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/multiplier_block.vhd</arg>&quot; line <arg fmt="%d" index="2">110</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">zero_detect</arg>&apos; of component &apos;<arg fmt="%s" index="4">mult_gen_v11_2</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/multiplier_block.vhd</arg>&quot; line <arg fmt="%d" index="2">110</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">pcasc</arg>&apos; of component &apos;<arg fmt="%s" index="4">mult_gen_v11_2</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">621</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">622</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">629</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">643</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">650</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">660</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">669</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">691</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="1748" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_pkg_v11_2.vhd</arg>&quot; line <arg fmt="%d" index="2">698</arg>: VHDL Assertion Statement with non constant condition is ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_v11_2_xst.vhd</arg>&quot; line <arg fmt="%d" index="2">246</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">D_PORT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dsp</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_v11_2_xst.vhd</arg>&quot; line <arg fmt="%d" index="2">246</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">SUBTRACT</arg>&apos; of component &apos;<arg fmt="%s" index="4">dsp</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_v11_2_xst.vhd</arg>&quot; line <arg fmt="%d" index="2">246</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">CARRY_IN</arg>&apos; of component &apos;<arg fmt="%s" index="4">dsp</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="752" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./mult_gen_v11_2/mult_gen_v11_2_xst.vhd</arg>&quot; line <arg fmt="%d" index="2">246</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">PCASC_IN</arg>&apos; of component &apos;<arg fmt="%s" index="4">dsp</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="795" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./xbip_utils_v2_0/bip_utils_pkg_v2_0.vhd</arg>&quot; line <arg fmt="%d" index="2">1848</arg>: Size of operands are different : result is &lt;false&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="795" delta="new" >&quot;<arg fmt="%s" index="1">E:/Beamformer_Tx_Rx/full_integrated_code/12_03_14/RTL/Receiver_Modules/4_process_blk/mutiplier/tmp/./_cg/_dbg/./xbip_utils_v2_0/bip_utils_pkg_v2_0.vhd</arg>&quot; line <arg fmt="%d" index="2">1848</arg>: Size of operands are different : result is &lt;false&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CLK</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">sclr_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ce_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">C_PORT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">D_PORT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">PCASC</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">000000000000000000000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">ZERO_DETECT</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">00</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PCASC_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CARRY_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">subtract_i&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">subtract_i&lt;0&gt;&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">pi&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">pi&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">pdel&lt;145:32&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">pcout&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">pcout&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">pcin&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">pcin&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">pattern_detect</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">d&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">d&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">cin</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">c&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">c&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">bslice&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">bslice&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">bdel&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">bdel&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">bcout&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">bcout&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">bcin&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">bcin&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">aslice30&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">aslice30&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">aslice18&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">aslice18&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">adel30&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">adel30&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">adel18&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">adel18&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">acout&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">acout&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">acin&lt;0&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">acin&lt;-1&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">max_product&lt;127:32&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
